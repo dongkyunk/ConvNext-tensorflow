@@ -1,6 +1,6 @@
 # Tensorflow Implementation of "A ConvNet for the 2020s"
 
-This is the unofficial Tensforflow Implementation of ConvNeXt from "A ConvNet for the 2020s"
+This is the unofficial Tensorflow Implementation of ConvNeXt from "A ConvNet for the 2020s"
 
 paper: https://arxiv.org/abs/2201.03545
 
