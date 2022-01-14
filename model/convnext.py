@@ -35,7 +35,7 @@ class ConvNextBlock(layers.Layer):
             layers.Conv2D(dim, kernel_size=7, padding="same", groups=dim,
                           kernel_initializer=kernel_initial, bias_initializer=bias_initial),
             layers.LayerNormalization(),
-            layers.Conv2D(dim, kernel_size=1, padding="valid",
+            layers.Conv2D(dim*4, kernel_size=1, padding="valid",
                           kernel_initializer=kernel_initial, bias_initializer=bias_initial),
             layers.Activation('gelu'),
             layers.Conv2D(dim, kernel_size=1, padding="valid",
